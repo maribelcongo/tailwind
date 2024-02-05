@@ -3,7 +3,78 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>practica tailwind</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lobster&family=Protest+Riot&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
-	<body></body>
+
+	<body>
+		<!-- div contenedor de la pagina -->
+		<div
+			class="bg-[url('./imagenes/landing.jpg')] bg-no-repeat h-screen bg-cover bg-center"
+		>
+			<!--  inicio del header -->
+			<header>
+				<nav class="flex justify-around items-center p-8">
+					<!--inicio del nav-->
+
+					<div class="w-full max-w-24">
+						<img src="imagenes/logo.png" alt="logo" class="" />
+
+						<h2>horses web</h2>
+					</div>
+
+					<ul class="flex items-center m-auto justify-center p-3">
+						<li class="m-5 bg-slate-50 rounded-lg p-2 hover:bg-violet-300">
+							Home
+						</li>
+						<li class="m-5 bg-slate-50 rounded-lg p-2 hover:bg-violet-300">
+							Contac
+						</li>
+						<li class="m-5 bg-slate-50 rounded-lg p-2 hover:bg-volet-300">
+							Horses
+						</li>
+						<li
+							class="m-5 bg-slate-50 rounded-lg p-2 cursor-pointer hover:bg-violet-300"
+						>
+							More horses
+						</li>
+					</ul>
+
+					<div class="flex items-center w-1/5 justify-evenly">
+						<a href="https://github.com/maribelcongo " aria-label="Github">
+							<i
+								class="devicon-github-original text-slate-50 hover:bg-volet-300"
+							></i
+						></a>
+
+						<a href="#" aria-label="facebook">
+							<i class="devicon-facebook-plain text-slate-50"></i
+						></a>
+
+						<a
+							href="https://www.linkedin.com/in/maribel-congo-379727268 "
+							aria-label="linkedin"
+						>
+							<i class="devicon-linkedin-plain text-slate-50"></i
+						></a>
+					</div>
+				</nav>
+				<!-- fin del nav -->
+			</header>
+			<!-- fin del header  -->
+		</div>
+		<!--etiqueta de cierre del div contenedor  -->
+	</body>
 </html>
